@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.info-bar {
+  display: flex;
+  border-bottom: 1px solid #00ff00;
+  height: 23px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+.buttons, .stats {
+  display: flex;
+}
+.button {
+  padding: 0 10px;
+  border: 1px solid#0000ff;
+  cursor: pointer;
+}
+.button.active {
+  background-color: #97ffff;
+}
+.image-editor {
+  position: relative;
+  top: 24px;
+  display: inline-block;
+}
+.image-container {
+  display: inline-block;
+}
+.bounds-rendered {
+  position: absolute;
+  border: 1px solid #f700ff;
+  background-color: #97ffff;
+  box-sizing: border-box;
+  opacity: .1;
+  pointer-events: none;
+}
